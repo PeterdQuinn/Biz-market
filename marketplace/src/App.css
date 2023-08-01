@@ -1,0 +1,110 @@
+/* Global styles */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header.css */
+.header {
+  background-color: #112240;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #2a4d69;
+}
+
+.header h1 {
+  margin: 0;
+  color: #ccd6f6;
+}
+
+/* Navbar.css */
+.navbar {
+  background-color: #2a4d69;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Body.css */
+.body {
+  padding: 20px;
+  background-color: #2a4d69;
+  color: #ccd6f6;
+}
+
+.stock-list, .crypto-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stock-item, .crypto-item {
+  width: calc(50% - 10px);
+  border: 1px solid #4b86b4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #4b86b4;
+}
+
+.stock-item h3, .crypto-item h3 {
+  margin: 0 0 10px;
+  color: #ccd6f6;
+}
+
+.stock-item p, .crypto-item p {
+  margin: 0 0 10px;
+}
+
+.stock-item button, .crypto-item button {
+  background-color: #ccd6f6;
+  color: #2a4d69;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.stock-item button:hover, .crypto-item button:hover {
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #112240;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #2a4d69;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+  color: #ccd6f6;
+}
