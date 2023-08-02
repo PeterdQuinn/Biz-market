@@ -108,3 +108,13 @@ body {
   margin: 0;
   color: #ccd6f6;
 }
+.social-links a {
+  margin: 0 10px;
+  color: #ccd6f6; /* or any color you prefer */
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #e43f5a; /* or any color you prefer */
+}
+
