@@ -118,3 +118,35 @@ body {
   color: #e43f5a; /* or any color you prefer */
 }
 
+/* UsefulLinks.css */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #ffffff; /* color changed to white */
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #e43f5a; /* or any color you prefer */
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ffffff; /* color changed to white */
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #e43f5a; /* or any color you prefer */
+}
